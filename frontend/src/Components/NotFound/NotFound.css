@@ -1,7 +1,6 @@
 .notFound {
   height: 100vh;
-  background-image: linear-gradient(to right, #f7f6ef, #302558);
-
+  background-color: #344D67;
   display: flex;
   align-items: center;
   justify-content: center;

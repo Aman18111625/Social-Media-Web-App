@@ -4,6 +4,8 @@ import { useAlert } from "react-alert";
 import { useDispatch, useSelector } from "react-redux";
 import { forgotPassword } from "../../Actions/User";
 import "./ForgotPassword.css";
+import { Link } from "react-router-dom";
+
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");
 
@@ -30,7 +32,7 @@ const ForgotPassword = () => {
     <div className="forgotPassword">
       <form className="forgotPasswordForm" onSubmit={submitHandler}>
         <Typography variant="h3" style={{ padding: "2vmax" }}>
-          Social Aap
+          Social Media Web-App
         </Typography>
 
         <input
@@ -45,6 +47,7 @@ const ForgotPassword = () => {
         <Button disabled={loading} type="submit">
           Send Token
         </Button>
+        <Link to='/' style={{color:"white"}}>Go back</Link>
       </form>
     </div>
   );

@@ -1,7 +1,6 @@
 .search {
   height: 100vh;
-  background-image: linear-gradient(to right, #faf9f3, #372a67);
-
+  background-color: #344D67;
   display: flex;
   align-items: center;
   justify-content: center;
